@@ -15,20 +15,20 @@ def execute(filters=None):
 def get_columns():
     return [
         {
-            "fieldname": "national_id",
-            "label": "Member Number (ID Number)",
+            "fieldname": "custom_national_id",
+            "label": "National ID No",
             "fieldtype": "Data",
             "width": 150,
         },
         {
             "fieldname": "full_name",
-            "label": "Member Name",
+            "label": "Employee Name",
             "fieldtype": "Data",
             "width": 250,
         },
         {
-            "fieldname": "tax_id",
-            "label": "KRA PIN",
+            "fieldname": "custom_kra_pin",
+            "label": "KRA Pin",
             "fieldtype": "Data",
             "width": 150,
         },

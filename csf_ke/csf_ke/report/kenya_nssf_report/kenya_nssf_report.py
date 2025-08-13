@@ -17,39 +17,32 @@ def execute(filters=None):
 def get_columns():
 	columns = [
 		{
-		'label': _('Payroll No'),
-		'fieldname': 'employee',
-		'fieldtype': 'Link',
-		'options': 'Employee',
+		'label': _('Employee No'),
+		'fieldname': 'employee_no',
+		'fieldtype': 'Data',
 		'width': 150
 		},
 		{
-		'label': _('Surname'),
-		'fieldname': 'last_name',
+		'label': _('Employee Name'),
+		'fieldname': 'employee_name',
 		'fieldtype': 'Data',
 		'width': 140
-		},
-		{
-		'label': _('Other Names'),
-		'fieldname': 'other_name',
-		'fieldtype': 'Data',
-		'width': 200
 		},
 		{
 		'label': _('National ID'),
-		'fieldname': 'national_id',
+		'fieldname': 'custom_national_id_no',
 		'fieldtype': 'Data',
 		'width': 140
 		},
 		{
-		'label': _('KRA No'),
-		'fieldname': 'tax_id',
+		'label': _('KRA Pin'),
+		'fieldname': 'custom_kra_pin',
 		'fieldtype': 'Data',
 		'width': 140
 		},			
 		{
 		'label': _('NSSF No'),
-		'fieldname': 'nssf_no',
+		'fieldname': 'custom_nssf_no',
 		'fieldtype': 'Data',
 		'width': 140
 		},
